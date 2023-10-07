@@ -1,0 +1,32 @@
+ /* div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    overflow: hidden;
+    box-shadow: 5px 5px blue;
+ }
+span{
+    color: rgb(71, 14, 158);
+} */
+/* div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    overflow: hidden;
+    box-shadow: 5px 5px blue;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+ } */
+li{
+    list-style: none;
+    float: left;
+    margin: 30px;
+
+
+}
+ul{
+    margin-left: 400px;
+}
+
+
