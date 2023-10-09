@@ -1,0 +1,142 @@
+/* img{
+    height: 160px;
+    width:460px ;
+    position: absolute;
+    z-index: -1;
+}
+p{
+    margin: 0px;
+}
+li{
+    display: inline;
+}
+span{
+    color: red;
+    display: block;
+} */
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0px;
+}
+body{
+    background: url(clouds.jpg);
+}
+li{
+    display: inline;
+    margin: 15px;
+
+}
+ul{
+    margin-left: 400px;
+
+}
+nav{
+    background-color: aquamarine;
+    height:40px ;
+    padding-top: 14px;
+    color: red;
+}
+h1{
+    margin-top: 130px;
+    text-align: center;
+}
+.one{
+margin-left: 290px;
+margin-top: 50px;
+
+}
+.two{
+    margin-left:80px ;
+    margin-top: 50px;
+
+}
+button{
+    height: 40px;
+    border-radius: 10px;
+    background-color: azure;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+p{
+    color: red;
+
+}
+p:hover{
+    color: black;
+} */
+
+
+
+
+
+
+
+/* img:hover{
+    transform:scale(3,3);
+    transform: rotate(20deg);
+    transform: translate(100px,199px);
+    transform: skew(20deg);
+}
+img{
+    height: 40px;
+    width: 40px;
+    margin: 100px;
+
+} */
+
+
+
+
+
+
+img:hover{
+   height: 100px;
+   width: 100px7;
+    transform: translate(700px);
+
+}
+img{
+    height: 90px;
+    width: 90px;
+    margin-top: 60px;
+    background-color: blueviolet;
+    transition: width 2s, height 2s, transform 10s;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* input{
+    width: 40px;
+    transition: width 2s height 2s transform 2s;
+}
+input:hover{
+    width:200px ;
+    height: 200px;
+} */
+
+
+
+
