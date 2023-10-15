@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <script>
+        // Function to add two numbers
+function add(x, y) {
+    return x + y;
+}
+
+// Function to subtract two numbers
+function subtract(x, y) {
+    return x - y;
+}
+
+// Function to multiply two numbers
+function multiply(x, y) {
+    return x * y;
+}
+
+// Function to divide two numbers
+function divide(x, y) {
+    if (y === 0) {
+        return "Division by zero is not allowed!";
+    }
+    return x / y;
+}
+
+// Main calculator function
+function calculator() {
+    while (true) {
+        // Ask the user for the operation
+        var operation = prompt("Choose an operation: +, -, *, /, or 'exit' to quit");
+
+        // Exit if the user enters 'exit'
+        if (operation === 'exit') {
+            break;
+        }
+
+        // Ask the user for two numbers
+        var num1 = parseFloat(prompt("Enter the first number"));
+        var num2 = parseFloat(prompt("Enter the second number"));
+
+        // Perform the selected operation and display the result
+        switch (operation) {
+            case '+':
+                alert("Result: " + add(num1, num2));
+                break;
+            case '-':
+                alert("Result: " + subtract(num1, num2));
+                break;
+            case '*':
+                alert("Result: " + multiply(num1, num2));
+                break;
+            case '/':
+                alert("Result: " + divide(num1, num2));
+                break;
+            default:
+                alert("Invalid operation. Please try again.");
+        }
+    }
+}
+
+// Run the calculator
+calculator();
+    </script>
+    
+</body>
+</html>
