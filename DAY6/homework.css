@@ -39,4 +39,17 @@ img{
     margin-top: 20px;
     text-anchor: middle;
 }
-
+.p{
+    color: black;
+    background-color: cadetblue;
+    margin-left: 200px;
+    box-shadow: blue;
+}
+.r{
+    color: black;
+    margin-left: 700px;
+}
+.e{
+    color: blue;
+    margin-left: 670px;
+}
