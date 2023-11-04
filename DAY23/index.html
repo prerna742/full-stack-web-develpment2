@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //pending,resolve(fullfilled),reject
+        let a = new Promise(function(resolve,reject){
+            let b= 1+1                      //state----single single execute ho jata h use state bolte h jise execute hone k liye kisi or function ya kisi or cheeze ki need hoti h use state nhi bolte h
+            if(b==2){
+                resolve("ok")
+            }
+            else{
+                reject("no")
+            }
+        })
+        console.log(a);
+        //var a = 10;
+        //if(a==10);
+        //function resolve(){
+            //console.log("ok")}
+            //else{
+            //function reject(){
+            //console.log("no")}}
+        
+    </script>
+</body>
+</html>
