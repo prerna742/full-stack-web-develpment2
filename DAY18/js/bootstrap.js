@@ -101,7 +101,7 @@
         return undefined; // eslint-disable-line no-undefined
       }
     };
-  }
+  } 
 
   function transitionEndEmulator(duration) {
     var _this = this;
